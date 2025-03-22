@@ -24,7 +24,7 @@
 
 1. 克隆此仓库
 ```bash
-git clone https://github.com/yourusername/subtitle-ai-translator.git
+git clone https://github.com/alexcz-a11y/subtitle-ai-translator.git
 cd subtitle-ai-translator
 ```
 
@@ -187,7 +187,7 @@ done
 如有问题或建议，请通过以下方式联系我们：
 
 - 提交GitHub Issues
-- 电子邮件：[your-email@example.com](mailto:your-email@example.com)
+- 在项目讨论区提出建议
 
 ---
 
