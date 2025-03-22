@@ -2,11 +2,16 @@
 venv/
 env/
 ENV/
+env.bak/
+venv.bak/
 
 # Python缓存文件
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C扩展
+*.so
 
 # 缓存和生成的文件
 .cache/
@@ -16,12 +21,33 @@ __pycache__/
 # 日志和数据文件
 log/
 logs/
-*.log
+local_settings.py
 
 # 配置文件中的API密钥(请确保不要提交API密钥到公共仓库)
 .env
+.venv
 config.ini
 secrets.json
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
 # 大型测试字幕文件
 # 如果你有大量测试数据，可以将其排除
@@ -40,4 +66,40 @@ large_test_data/
 tmp/
 temp/
 .coverage
+.coverage.*
 htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# 其他工具
+.pybuilder/
+target/
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+.pdm.toml
+.pdm-python
+.pdm-build/
+__pypackages__/
+celerybeat-schedule
+celerybeat.pid
+*.sage.py
+.spyderproject
+.spyproject
+.ropeproject
+/site
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+.ruff_cache/
+.pypirc
