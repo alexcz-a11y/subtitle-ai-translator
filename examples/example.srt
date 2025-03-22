@@ -1,0 +1,35 @@
+1
+00:00:01,000 --> 00:00:05,000
+Welcome to the advanced quantum computing seminar.
+
+2
+00:00:06,000 --> 00:00:09,000
+Today we'll discuss quantum entanglement.
+
+3
+00:00:10,000 --> 00:00:15,000
+Entanglement is what Einstein called "spooky action at a distance."
+
+4
+00:00:16,000 --> 00:00:20,000
+When two particles become entangled, they share information instantly.
+
+5
+00:00:21,000 --> 00:00:25,000
+This happens regardless of the distance between them.
+
+6
+00:00:26,000 --> 00:00:30,000
+Let's look at a practical example in quantum computing.
+
+7
+00:00:31,000 --> 00:00:36,000
+In a quantum processor, qubits can be entangled to perform complex calculations.
+
+8
+00:00:37,000 --> 00:00:42,000
+This property is fundamental to quantum advantage over classical computers.
+
+9
+00:00:43,000 --> 00:00:48,000
+Now, let's see how this applies to our quantum algorithm. 

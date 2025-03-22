@@ -1,0 +1,43 @@
+# Python虚拟环境
+venv/
+env/
+ENV/
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 缓存和生成的文件
+.cache/
+*.log
+.DS_Store
+
+# 日志和数据文件
+log/
+logs/
+*.log
+
+# 配置文件中的API密钥(请确保不要提交API密钥到公共仓库)
+.env
+config.ini
+secrets.json
+
+# 大型测试字幕文件
+# 如果你有大量测试数据，可以将其排除
+*.mp4
+*.avi
+*.mkv
+large_test_data/
+
+# 编辑器和IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 临时文件
+tmp/
+temp/
+.coverage
+htmlcov/
